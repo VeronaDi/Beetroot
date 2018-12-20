@@ -1,0 +1,14 @@
+body {
+  font-size: 16px;
+  background-color: #F1F4F6;
+  color: #032626
+}
+
+ul {
+  list-style-type: none;
+}
+
+.product-links {
+  text-decoration: none;
+  color: #032626;
+}

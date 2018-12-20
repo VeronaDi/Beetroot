@@ -1,0 +1,40 @@
+.one-product {
+  margin: 40px;
+}
+
+.one-product-name {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center
+}
+
+.one-product-price {
+  font-size: 1.5rem;
+  text-align: center
+}
+
+.one-product-image {
+  max-height: 400px;
+  max-width: 40%;
+}
+
+.one-product-description {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 60%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  align-items: center;
+}
+
+.one-btn-add {
+  border: none;
+  border-radius: 12px;
+  width: 120px;
+  height: 50px;
+  background-color: #032626;
+  color: #e8d5b5;
+  margin: 50px;
+}
