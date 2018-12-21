@@ -35,7 +35,7 @@ class ProductsPage extends React.Component {
     return (
       <div>
         <CartButton />
-        <h1 className="page-title">Categories</h1>
+        <h1 className="page-list">Categories</h1>
         {this.props.categories.map(category => (
           <Category key={category.id} category={category} />
         ))}

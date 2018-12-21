@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import CartItem from "../components/CartItem";
+import "./CartPage.css";
 
 import numberOfProductsInCartSelector from "../selectors/numberOfProductsInCart";
 import totalPriceSelector from "../selectors/totalPriceSelector";
@@ -10,7 +11,7 @@ class CartPage extends React.Component {
     const { cartItems, productsQuantity, totalPrice } = this.props;
     return (
       <div>
-        <h2>Cart</h2>
+        <h2 className="cart-title">Cart</h2>
         {cartItems.map(item => (
           <CartItem
             key={item.product.id}
@@ -18,8 +19,11 @@ class CartPage extends React.Component {
             quantity={item.quantity}
           />
         ))}
-        You ordered {productsQuantity} items. Total price:{" "}
-        {totalPrice.toFixed(2)} USD.
+        <div className="cart-total">
+          You ordered {productsQuantity} items. Total price:{" "}
+          {totalPrice.toFixed(2)} USD.
+          <button className="btn-order">Order</button>
+        </div>
       </div>
     );
   }

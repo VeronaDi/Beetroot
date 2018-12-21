@@ -1,0 +1,16 @@
+.cart-link {
+  text-decoration: none;
+  color: #032626;
+  float: right;
+  font-size: 0.8rem;
+  margin-right: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-img {
+  width: 70px;
+  height: 70px;
+}

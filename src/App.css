@@ -12,3 +12,7 @@ ul {
   text-decoration: none;
   color: #032626;
 }
+
+.product-links:hover {
+  text-decoration: underline
+}

@@ -1,0 +1,25 @@
+.cart-title {
+  text-align: center;
+  margin: 40px;
+  font-size: 2rem;
+}
+
+.cart-total {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-order {
+  border: none;
+  border-radius: 12px;
+  width: 120px;
+  height: 50px;
+  background-color: #032626;
+  color: #e8d5b5;
+  margin: 50px;
+}

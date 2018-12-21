@@ -15,7 +15,7 @@ class App extends Component {
           <ul>
             <li>
               <Link to="/" className="product-links">
-                All Products
+                Home
               </Link>
             </li>
           </ul>
